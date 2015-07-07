@@ -1,1 +1,43 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 1200px;
+	max-width: 2000px;
+	
+}
+.opener {
+	
+	width: 70%;
+	font-size: 130%;
+	margin: 0 auto;
+	text-align: justify;
+}
 
+.pRight {
+	float: right;
+}
+.divImages{
+	display: flex;
+	direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	
+}
+.footer {
+	clear: both;
+	width: 100%;
+	font-size: 75%;
+	display: flex;
+	direction: row;
+	align-content: space-around;
+	margin: 40px 225px;
+}
+.aLink {
+	text-decoration: none;
+	color: #0544AC;
+}
